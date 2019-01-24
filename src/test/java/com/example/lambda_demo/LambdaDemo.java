@@ -38,8 +38,7 @@ public class LambdaDemo {
         //使用lambda表达式以及函数操作
         players.forEach((player) -> System.out.println(player+"; "));
         System.out.println("--------------------------");
-        //在java8中使用双冒号操作符(方法引用)
-        players.forEach(System.out::println);
+
     }
 
     @Test
